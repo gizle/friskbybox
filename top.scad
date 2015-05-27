@@ -19,11 +19,10 @@ module side_grove(displacement){
 
 module front_grove(displacement){
     translate([displacement, 0, grove_lift])
-	cube([thickness2, pwidth, thickness2], center=true);
+	cube([grove_width, pwidth, thickness2], center=true);
 }
 
 module mainshape(){
-    //cube([swidth+ outer_margin, pwidth + outer_margin, thickness2], center=true);
     linear_extrude(height=thickness2){
 	minkowski(){
 	    square([swidth, pwidth], center=true);
