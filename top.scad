@@ -1,8 +1,7 @@
 
 include <constants.scad>
 
-outer_margin = 6;
-fit = 0.1;
+//The top and bottom panel of the box, with groves for the side panels.
 
 grove_lift =  thickness2-thickness1;
 grove_width = thickness2 + fit;
@@ -41,5 +40,6 @@ module top(){
     }
 }
 
-top();
-translate([0, 71, 0]) top();
+//position the part for milling and show it.
+rotate([180,0,90])  top();
+

@@ -13,5 +13,6 @@ thickness2 = 3;
 grovedepth = 2;
 
 mfold = 5;
+fit = 0.1;
 
 $fn = 100;
