@@ -15,5 +15,6 @@ grovedepth = 2;
 mfold = 5;
 fit = 0.1;
 grove_width = thickness2 + fit;
+lamella_length = 10;
 
 $fn = 100;

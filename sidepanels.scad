@@ -1,4 +1,4 @@
-
+,
 include <constants.scad>
 
 margin = 1;
@@ -33,7 +33,8 @@ module lamella_grove(xpos, ypos, angle, length, width, ele){
 
 module lamella_groves(startx, ypos, angle, separation, num){
     for(i= [0:num-1]){
-	lamella_grove(startx, ypos + i*separation, angle, 10, grove_width,thickness2-thickness1);
+	lamella_grove(startx, ypos + i*separation, angle, lamella_length, 
+		      grove_width,thickness2-thickness1);
     }
 }
 
