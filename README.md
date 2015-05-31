@@ -30,8 +30,8 @@ mounts.scad     - Mounts to allow the box being fastened by a hook and loop fast
 Status
 ======
 
-All parts of a potential box is made, but a model of the whole box is not made.
+All parts of a potential box are made, but a model of the whole box is not.
 Also, some way of fastenening the electronics, batteries and sensors on the inside
-should be made, but the design of the electronics is not finalized.
+should is missing, but the design of the electronics is not finalized.
 
 
